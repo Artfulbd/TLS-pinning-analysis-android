@@ -1,4 +1,6 @@
 1. amazon has pinning, 10 SHA-256 hash on network_security_config xml
+	- FOUND 2 "BEGIN CERTIFICATE", 
+	- /smali/com/amazon/identity/auth/device/utils/SignatureUtil.smali line 9 and 51
 2. Instagram uses pinning, 15 SHA-256 hash on fb_network_security_config xml
 3. BMO uses pinning, found "-----BEGIN CERTIFICATE-----\n" on smali/com/worklight/a/g/a.smali line 234
 4. chrome, not sure so far
