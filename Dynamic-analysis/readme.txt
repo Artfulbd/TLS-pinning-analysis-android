@@ -1,9 +1,16 @@
 1. Install android studio cli (required java>=11 as it needs class fomate version 55)
-2. unzip it and open terminal on bin folder
+2. unzip it, create folder "tools" inside "cmdline-tools"  and open terminal on bin folder
 3. run-> sdkmanager "platform-tools" "platforms;android-30" "build-tools;30.0.2"
 4. add to env_var_path -> some_loc\Android\platform-tools
+
 5. run -> sdkmanager "system-images;android-33;google_apis_playstore;x86_64"
-6. run -> avdmanager create avd --name "Custom_pxl_7_pro_API_33" --package "system-images;android-33;google_apis_playstore;x86_64"
+sdkmanager "system-images;android-33;google_apis;x86_64"
+ 		
+
+6. run -> avdmanager create avd --force --name "Custom_pxl_7_pro_API_33" --abi google_apis_playstore/x86_64 --package "system-images;android-33;google_apis_playstore;x86_64"
+echo no | avdmanager create avd --force --name "Custom_pxl_7_pro_API_33_rt" --abi google_apis/x86_64 --package "system-images;android-33;google_apis;x86_64"
+
+
 7. change in _>C:\Users\Admin\.android\avd\Custom_pxl_7_pro_API_33.avd\config.ini
 
 /* replicate Pixel Pro 7 */
