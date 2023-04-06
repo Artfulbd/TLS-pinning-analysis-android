@@ -19,7 +19,7 @@ adb shell "/data/local/tmp/frida-server &"
 
 8. Now hook
 
-frida -U -l frida-script.js -f com.package.name
+frida -U -l E:\GIT\TLS-pinning-analysis-android\Hooking\frida-script.js -f com.walmart.android
 
 9. Kill Frida
 adb shell ps -e | findstr frida-server

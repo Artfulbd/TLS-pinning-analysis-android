@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Hooking/frida-server-16.0.11-android-x86_64
+Hooking/frida-server-16.0.11-android-x86_64.xz
