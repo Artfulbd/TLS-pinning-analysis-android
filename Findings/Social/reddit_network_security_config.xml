@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="user" />
+            <certificates src="system" />
+            <certificates src="@raw/snoodev" />
+        </trust-anchors>
+    </debug-overrides>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">redd.it</domain>
+        <domain includeSubdomains="true">redditstatic.com</domain>
+        <domain includeSubdomains="true">reddit.com</domain>
+        <domain includeSubdomains="true">redditmedia.com</domain>
+        <domain includeSubdomains="true">snooguts.net</domain>
+    </domain-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="@raw/hs_dev_cert" />
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

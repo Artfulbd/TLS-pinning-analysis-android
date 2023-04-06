@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">questrade.com</domain>
+        <pin-set expiration="2038-01-15">
+            <pin digest="SHA-256">1XUWswVGCeFUaI5FKrhY7R+dIrDXIzTtDy/WDGcjAoY=</pin>
+            <pin digest="SHA-256">lnsM2T/O9/J84sJFdnrpsFp3awZJ+ZZbYpCWhGloaHI=</pin>
+            <pin digest="SHA-256">vPtEqrmtAhAVcGtBIep2HIHJ6IlnWQ9vlK50TciLePs=</pin>
+            <pin digest="SHA-256">Wd8xe/qfTwq3ylFNd3IpaqLHZbh2ZNCLluVzmeNkcpw=</pin>
+            <pin digest="SHA-256">q5hJUnat8eyv8o81xTBIeB5cFxjaucjmelBPT2pRMo8=</pin>
+            <pin digest="SHA-256">oC+voZLIy4HLE0FVT5wFtxzKKokLDRKY1oNkfJYe+98=</pin>
+            <pin digest="SHA-256">WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=</pin>
+            <pin digest="SHA-256">tjDxUP/0HkvsxxGoe6s5I2VwqS5Ry/Y9HonZz/Bf4io=</pin>
+            <pin digest="SHA-256">O4rGMvpV1NfGyWRRTZ6v92jubDQNBdwlK+E35oZJ9qo=</pin>
+            <pin digest="SHA-256">8ca6Zwz8iOTfUpc8rkIPCgid1HQUT+WAbEIAZOFZEik=</pin>
+            <pin digest="SHA-256">Fe7TOVlLME+M+Ee0dzcdjW/sYfTbKwGvWJ58U7Ncrkw=</pin>
+            <pin digest="SHA-256">nOFx7QZ3iPWYO5SkW4gR8u6yc4yWB/k4RYniAHZ/kGo=</pin>
+            <pin digest="SHA-256">i7WTqTvh0OioIruIfFR4kMPnBqrS2rdiVPl/s2uC/CY=</pin>
+            <pin digest="SHA-256">vazL8uiyfAwCponuhmybhuwERCr83d1dTsNt7yHnYd0=</pin>
+            <pin digest="SHA-256">uUwZgwDOxcBXrQcntwu+kYFpkiVkOaezL0WYEZ3anJc=</pin>
+            <pin digest="SHA-256">HXXQgxueCIU5TTLHob/bPbwcKOKw6DkfsTWYHbxbqTY=</pin>
+            <pin digest="SHA-256">im4um87GZaA8JNJKHv5jGIGoxKVMlv4AFg+nsMxTX80=</pin>
+            <pin digest="SHA-256">GQbGEk27Q4V40A4GbVBUxsN/D6YCjAVUXgmU7drshik=</pin>
+            <pin digest="SHA-256">Z9xPMvoQ59AaeaBzqgyeAhLsL/w9d54Kp/nA8OHCyJM=</pin>
+            <pin digest="SHA-256">gJ8rquNa+082vWR2znXCABB3kBtq9cTauC4YjGuVwaE=</pin>
+            <pin digest="SHA-256">PWcNNGEyldePFWHRgJNKu0HEPlk5Dn1O2lMkWnY/9nA=</pin>
+            <pin digest="SHA-256">foeCwVDOOVL4AuY2AjpdPpW7XWjjPoWtsroXgSXOvxU=</pin>
+            <pin digest="SHA-256">I/Lt/z7ekCWanjD0Cvj5EqXls2lOaThEA0H2Bg4BT/o=</pin>
+            <pin digest="SHA-256">pJXI0RDoueIA83Cu2j/5LuQ/jj1OwNscDcWL12KIC6U=</pin>
+            <pin digest="SHA-256">Y9mvm0exBk1JoQ57f9Vm28jKo5lFm/woKcVxrYxu80o=</pin>
+            <pin digest="SHA-256">SVqWumuteCQHvVIaALrOZXuzVVVeS7f4FGxxu6V+es4=</pin>
+            <pin digest="SHA-256">SQVGZiOrQXi+kqxcvWWE96HhfydlLVqFr4lQTqI5qqo=</pin>
+            <pin digest="SHA-256">lXNUc71no7lajV+QxaIazh4NeUcyBnTUq4R5crkVRNI=</pin>
+            <pin digest="SHA-256">FafzD6yXIlzaPwguzkj5DbYWZmT7+U3gSyQfzELAtwk=</pin>
+            <pin digest="SHA-256">r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=</pin>
+            <pin digest="SHA-256">loQsMQgMU4GJ6YaNGjSsEZ4YmM/sL4SIwzig5VvhCWU=</pin>
+            <pin digest="SHA-256">JbQbUG5JMJUoI6brnx0x3vZF6jilxsapbXGVfjhN8Fg=</pin>
+            <pin digest="SHA-256">v+gpCYcuRDTxFcUaVhaAGVlNDgPco2PZ87SDnQurzeU=</pin>
+            <pin digest="SHA-256">ape1HIIZ6T5d7GS61YBs3rD4NVvkfnVwELcCRW4Bqv0=</pin>
+            <pin digest="SHA-256">UZJDjsNp1+4M5x9cbbdflB779y5YRBcV6Z6rBMLIrO4=</pin>
+        </pin-set>
+    </domain-config>
+</network-security-config>
