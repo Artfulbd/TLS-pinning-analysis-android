@@ -1,0 +1,14 @@
+1. HttpsURLConnection->javax.net.ssl.HttpsURLConnection;
+2. SSLContext-> javax.net.ssl.X509TrustManage; javax.net.ssl.SSLContext;
+3. TrustManagerImpl (Android > 7)-> java.util.ArrayList; com.android.org.conscrypt.TrustManagerImpl;
+4. OkHTTPv3->okhttp3.CertificatePinner
+5. Trustkit->com.datatheorem.android.trustkit.pinning.OkHostnameVerifier
+6. Appcelerator Titanium->appcelerator.https.PinningTrustManager
+7. OpenSSLSocketImpl Conscrypt-> com.android.org.conscrypt.OpenSSLSocketImpl
+8. OpenSSLEngineSocketImpl Conscrypt-> com.android.org.conscrypt.OpenSSLEngineSocketImpl
+9. OpenSSLSocketImpl Apache Harmony->org.apache.harmony.xnet.provider.jsse.OpenSSLSocketImpl
+10.PhoneGap sslCertificateChecker->nl.xservices.plugins.sslCertificateChecker
+11.IBM MobileFirst pinTrustedCertificatePublicKey->com.worklight.wlclient.api.WLClient
+12.IBM WorkLight->com.worklight.wlclient.certificatepinning.HostNameVerifierWithCertificatePinning
+13.Conscrypt CertPinManager->com.android.org.conscrypt.CertPinManager
+14....
